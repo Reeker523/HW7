@@ -16,10 +16,10 @@ System.out.println("Задача 3");
       for (int i = 0; i < 17; i=i+2){
           System.out.println("Итерация цикла " +i);
       }
-      System.out.println("Задача 4");
-      for (int i = 10; i > -10; i=i-1){
-          System.out.println("Итерация цикла " +i);
-      }
+        System.out.println("Задача 4");
+        for (int i = 10; i >= -10; i--) {
+            System.out.println("Итерация цикла " + i);
+        }
       System.out.println("Задача 5");
       for (int i = 1904; i < 2096; i=i+4){
           System.out.println("Високосным годом является " +i);
