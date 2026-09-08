@@ -17,7 +17,7 @@ System.out.println("Задача 3");
           System.out.println("Итерация цикла " +i);
       }
         System.out.println("Задача 4");
-        for (int i = 10; i > -11; i = i - 1) {
+        for (int i = 10; i >= -10; i--) {
             System.out.println("Итерация цикла " + i);
         }
       System.out.println("Задача 5");
